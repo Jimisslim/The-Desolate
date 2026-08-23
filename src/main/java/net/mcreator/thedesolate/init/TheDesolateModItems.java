@@ -18,8 +18,10 @@ import java.util.function.Function;
 public class TheDesolateModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(TheDesolateMod.MODID);
 	public static final DeferredItem<Item> COCKBLOCK;
+	public static final DeferredItem<Item> PENIS_BLOCK;
 	static {
 		COCKBLOCK = block(TheDesolateModBlocks.COCKBLOCK);
+		PENIS_BLOCK = block(TheDesolateModBlocks.PENIS_BLOCK);
 	}
 
 	// Start of user code block custom items

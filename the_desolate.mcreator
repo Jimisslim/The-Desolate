@@ -26,6 +26,23 @@
           "src/main/resources/assets/the_desolate/models/block/cockblock.json"
         ]
       }
+    },
+    {
+      "name": "PenisBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_desolate/models/item/penis_block.json",
+          "src/main/resources/assets/the_desolate/models/block/penis_block.json",
+          "src/main/java/net/mcreator/thedesolate/block/PenisBlockBlock.java",
+          "src/main/resources/assets/the_desolate/items/penis_block.json",
+          "src/main/resources/data/the_desolate/loot_table/blocks/penis_block.json",
+          "src/main/resources/assets/the_desolate/blockstates/penis_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -35,16 +52,17 @@
   "language_map": {
     "en_us": {
       "item_group.the_desolate.desolate": "Desolate",
-      "item.the_desolate.cockblock": "Cockblock"
+      "item.the_desolate.cockblock": "Cockblock",
+      "item.the_desolate.penis_block": "Penis Block"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/thedesolate/init/TheDesolateModBlocks.java",
       "src/main/java/net/mcreator/thedesolate/init/TheDesolateModItems.java",
-      "src/main/java/net/mcreator/thedesolate/TheDesolateMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/java/net/mcreator/thedesolate/TheDesolateMod.java"
     ]
   },
   "foldersRoot": {
